@@ -83,7 +83,7 @@
   }
  },
  "slicer_version": "5.12.3",
- "target_registry_sha256": "f1624d4d6ab66908b262289fbb70952c2eeb5b3d7fdfb3d19a889c88d8f32438",
+ "target_registry_sha256": "9f16ddc2a3605084a3894bb31bbfc3205f1b230031edb6ec3f6c11434bb709f2",
  "slicer_software_sha256": {
   "command_protocol.py": "14c632f02fb4e536172d1c7d9a27174c701c7afe63ccaa0eae584442d7816c50",
   "conftest.py": "0f1d08138af56578f8724afb996f0a4af07ec18e888dfe4a4403eae4c3f3e58f",
