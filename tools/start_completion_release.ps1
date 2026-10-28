@@ -206,7 +206,8 @@ New-Item -ItemType Directory -Path $runDirectory -ErrorAction Stop | Out-Null
 $commandTrace = Join-Path $runDirectory 'commands.jsonl'
 $recognizerInfo.Arguments = ('"' + (Join-Path $payload 'cmos-motion-poc/app.py') + '" --config "' + $recognizerConfiguration + '" --slicer-connect --trial-log "' + $commandTrace + '"')
 $recognizerProcess = [Diagnostics.Process]::Start($recognizerInfo)
-$deadline = (Get-Date).AddSeconds(30)
+# Network-share payloads import the venv over SMB — allow real headroom.
+$deadline = (Get-Date).AddSeconds(180)
 $recognizerReady = $null
 $readinessProbe = @'
 import sys,json,time
