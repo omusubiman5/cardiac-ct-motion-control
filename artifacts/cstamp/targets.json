@@ -1,14 +1,14 @@
 {
-  "schema_version": 1,
-  "targets": [
-    {
-      "target_id": "docs20-carto-nonclinical-demo",
-      "scene_id": "C:\\Projects\\Cardiac-CT-Motion-Control\\artifacts\\slicer\\CARTO3_EA_Map_Demo.mrb",
-      "scene_sha256": "402e8bcffc6459fd25e727a7ae02f6071738e6bb4e23d7ffaa827c6f0ea337a1",
-      "model_name": "CARTOmesh_1-OG",
-      "model_sha256": "a78702d7ed9e259286330082701b98a446108fd08e77d5da878aa8ce0db63d71",
-      "transform_sha256": "2163c9d76567ed72097e8c4d524c30a2163c6be4ef7565c48b3eb350242b07ae",
-      "registration_reference": "docs/20_implementation-plan.md §対象表面; fixed non-clinical demo and CARTOmesh_1-OG"
-    }
-  ]
+ "schema_version": 1,
+ "targets": [
+  {
+   "target_id": "docs20-carto-nonclinical-demo",
+   "scene_id": "A:\\Cardiac-CT-Motion-Control\\artifacts\\slicer\\CARTO3_EA_Map_Demo.mrb",
+   "scene_sha256": "402e8bcffc6459fd25e727a7ae02f6071738e6bb4e23d7ffaa827c6f0ea337a1",
+   "model_name": "CARTOmesh_1-OG",
+   "model_sha256": "a78702d7ed9e259286330082701b98a446108fd08e77d5da878aa8ce0db63d71",
+   "transform_sha256": "2163c9d76567ed72097e8c4d524c30a2163c6be4ef7565c48b3eb350242b07ae",
+   "registration_reference": "docs/20_implementation-plan.md §対象表面; fixed non-clinical demo and CARTOmesh_1-OG"
+  }
+ ]
 }

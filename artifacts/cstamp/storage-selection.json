@@ -1,5 +1,5 @@
 {
   "schema_version": 1,
-  "events": "C:\\Projects\\Cardiac-CT-Motion-Control\\artifacts\\cstamp\\events-20261012-clean.jsonl",
-  "plans": "C:\\Projects\\Cardiac-CT-Motion-Control\\artifacts\\cstamp\\plans-20261012-clean.jsonl"
+  "events": "A:\\Cardiac-CT-Motion-Control\\artifacts\\cstamp\\events-20261012-clean.jsonl",
+  "plans": "A:\\Cardiac-CT-Motion-Control\\artifacts\\cstamp\\plans-20261012-clean.jsonl"
 }
