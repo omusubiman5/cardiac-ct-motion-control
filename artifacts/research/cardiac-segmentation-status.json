@@ -1,0 +1,11 @@
+{
+  "state": "completed",
+  "model": "cardiac-3mm-v2.0.0",
+  "input": "C:\\Users\\HOMEA\\AppData\\Local\\slicer.org\\Slicer\\cache\\SlicerIO\\CTA-cardio.nrrd",
+  "outputScene": "C:\\Projects\\Cardiac-CT-Motion-Control\\artifacts\\slicer\\Whole_Heart_Anatomy_Base.mrb",
+  "time": "2026-08-29T20:42:39+0900",
+  "segmentName": "Heart",
+  "points": 66702,
+  "polygons": 133408,
+  "sceneBytes": 68347452
+}

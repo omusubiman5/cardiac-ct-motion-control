@@ -1,0 +1,1 @@
+{"monai": false, "pytorch": false, "modules": ["MONAIAuto3DSegInstance", "PyTorchUtilsInstance", "monaiauto3dseg", "pytorchutils"]}

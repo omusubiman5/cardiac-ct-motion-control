@@ -1,0 +1,17 @@
+
+=================================== ERRORS ====================================
+______ ERROR collecting prototypes/cmos-motion-poc/tests/test_config.py _______
+ImportError while importing test module 'C:\Projects\Cardiac-CT-Motion-Control\prototypes\cmos-motion-poc\tests\test_config.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\HOMEA\AppData\Local\Programs\Python\Python312\Lib\importlib\__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+prototypes\cmos-motion-poc\tests\test_config.py:5: in <module>
+    from config import AppConfig
+E   ModuleNotFoundError: No module named 'config'
+- generated xml file: C:\Projects\Cardiac-CT-Motion-Control\evidence\FIELD-20261010-01\motion-unit.xml -
+=========================== short test summary info ===========================
+ERROR prototypes/cmos-motion-poc/tests/test_config.py
+!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+1 error in 0.41s

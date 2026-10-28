@@ -1,0 +1,9 @@
+Role,Name,Department,Decision authority,Contact,Status,Notes
+Clinical owner,,心臓血管外科,臨床用途・合格基準,,,Required
+Medical safety lead,,医療安全管理部門,臨床安全承認,,,Required
+Clinical engineering lead,,臨床工学部門,機器接続・運用承認,,,Required
+IT security lead,,情報システム部門,端末・ネットワーク・配布承認,,,Required
+Regulatory lead,,薬事／法規,該当性・申請方針,,,Required
+Human factors lead,,ユーザビリティ／研究,使用性評価,,,Recommended
+Development lead,,開発,設計・実装・証跡,,,Required
+

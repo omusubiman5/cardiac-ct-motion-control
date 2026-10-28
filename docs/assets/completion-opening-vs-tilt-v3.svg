@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="590" viewBox="0 0 1120 590">
+<rect width="1120" height="590" fill="#f4f7fb"/><g font-family="Yu Gothic,Meiryo,sans-serif" fill="#122640">
+<text x="30" y="45" font-size="27" font-weight="bold">Cの切れ目を回す操作と、Cを載せた面を傾ける操作</text>
+<rect x="30" y="85" width="510" height="390" rx="14" fill="#122640"/><rect x="570" y="85" width="520" height="390" rx="14" fill="#122640"/>
+<g fill="#eef6ff" font-size="23"><text x="55" y="130">選ぶ行：開口方向を調整</text><text x="595" y="130">選ぶ行：傾きを調整</text></g>
+<circle cx="235" cy="265" r="96" fill="none" stroke="#65758a" stroke-width="2"/>
+<path d="M300 194 A96 96 0 1 0 300 336" fill="none" stroke="#55d8e5" stroke-width="10"/>
+<circle cx="235" cy="265" r="5" fill="#ffd479"/><path d="M365 207 Q402 262 365 316" fill="none" stroke="#ffd479" stroke-width="5"/>
+<path d="m355 305 10 14 14-10" fill="none" stroke="#ffd479" stroke-width="4"/>
+<g fill="#eef6ff" font-size="19"><text x="65" y="405">開いた手を左右に動かす</text><text x="65" y="440">中心・法線・直径は保持。切れ目が面内で回る。</text></g>
+<ellipse cx="805" cy="265" rx="112" ry="44" fill="none" stroke="#65758a" stroke-width="2"/>
+<path d="M889 235 A112 44 0 1 0 889 295" fill="none" stroke="#55d8e5" stroke-width="10"/>
+<path d="M805 265 V174" stroke="#ffd479" stroke-width="4"/><path d="m798 185 7-14 7 14" fill="none" stroke="#ffd479" stroke-width="4"/>
+<path d="M980 218V315" stroke="#eef6ff" stroke-width="4"/><path d="m971 229 9-13 9 13 m-18 74 9 14 9-14" fill="none" stroke="#eef6ff" stroke-width="4"/>
+<g fill="#eef6ff" font-size="19"><text x="605" y="405">開いた手を上下に動かす</text><text x="605" y="440">中心・直径は保持。面の法線が変わる。</text></g>
+<text x="35" y="520" font-size="20">「開口方向を調整」を選んだのに面が縦に傾く場合は、パネルの現在モードと拒否理由を確認。</text>
+<text x="35" y="560" font-size="17" fill="#526278">図は操作の違いを示す模式図。形状・寸法の実測結果、実手の操作性検収とは別です。</text>
+</g></svg>

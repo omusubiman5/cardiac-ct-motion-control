@@ -1,0 +1,388 @@
+{
+  "generated_at": "2026-10-10T01:37:39+0900",
+  "generator": "tools/generate_sbom.py",
+  "scope": "non-clinical prototype; signing NOT included",
+  "components": {
+    "slicer-cstamp": {
+      "files": [
+        {
+          "path": ".pytest_cache/.gitignore",
+          "sha256": "e7c6bb30148cf667606dcd63e7ca77acaa3cfb0c8303bf09e6419e1e1669dc6d",
+          "bytes": 39
+        },
+        {
+          "path": ".pytest_cache/CACHEDIR.TAG",
+          "sha256": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4",
+          "bytes": 191
+        },
+        {
+          "path": ".pytest_cache/README.md",
+          "sha256": "420e808d79a6c25d3cda0af33bc4782314a14949866682c68ce8149e89b66b70",
+          "bytes": 310
+        },
+        {
+          "path": ".pytest_cache/v/cache/lastfailed",
+          "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "bytes": 2
+        },
+        {
+          "path": ".pytest_cache/v/cache/nodeids",
+          "sha256": "826cbbff25348dcf2a939ec64d4c63ffeee2cfdd966e4215e3b9a137ecd62688",
+          "bytes": 10163
+        },
+        {
+          "path": "command_protocol.py",
+          "sha256": "bc0f6fa4f628fcfdba5cd337972f2f4d53858a48fafe615919602d94d2efafa1",
+          "bytes": 11834
+        },
+        {
+          "path": "conftest.py",
+          "sha256": "f081e82d493f4c3bf1d6edd537fda704597291b53ac157f5702e830514e989fe",
+          "bytes": 94
+        },
+        {
+          "path": "cstamp/__init__.py",
+          "sha256": "46f565b2db0bb4cf95dfcd9981ef71553546701e73fc946a147278bfa54b03bb",
+          "bytes": 983
+        },
+        {
+          "path": "cstamp/geometry.py",
+          "sha256": "b1025fdd3dbe954f1d59ea298d3c266149f05fae853899cf3dcabcb648c1266f",
+          "bytes": 2637
+        },
+        {
+          "path": "cstamp/ledger.py",
+          "sha256": "5bbf800b9ef28e003a76b768dc6673fda9ebe11f88f91ba5f4135290bbb8d511",
+          "bytes": 2477
+        },
+        {
+          "path": "cstamp/placement.py",
+          "sha256": "6d5d3b25b3df99d1293224735692a52e4e5733b94ec24ce4463f1101ff6b53d8",
+          "bytes": 2391
+        },
+        {
+          "path": "cstamp/plan.py",
+          "sha256": "d0ca71f6d8f9efba0e53101c09c98da47a4ee622ed850037a9625f99644cf207",
+          "bytes": 8558
+        },
+        {
+          "path": "cstamp/plan_revision.py",
+          "sha256": "8a0aa54ea653b2413437498763adb020c0ba54f2d4b60e6688180c4c4e7848d8",
+          "bytes": 6854
+        },
+        {
+          "path": "cstamp/state_machine.py",
+          "sha256": "0f8605a838bd5cc59676a037133e8ea6820f6e75aa520a7127a1a1bef448dd16",
+          "bytes": 10599
+        },
+        {
+          "path": "cstamp/surface_aim.py",
+          "sha256": "e0b95750a691b032051b175c7e68d12217c3835a5445ff3b32ca4e6159faaffa",
+          "bytes": 2085
+        },
+        {
+          "path": "cstamp/template.py",
+          "sha256": "b22a2555909327b682e8688fcb5148bf2aec6e27201f58d377ae9be24bbcd42c",
+          "bytes": 1758
+        },
+        {
+          "path": "CStampModule.py",
+          "sha256": "79e034c452931eea8601b56eede14a145a90548bf4231156da44806af4426f07",
+          "bytes": 63097
+        },
+        {
+          "path": "gui_verify.py",
+          "sha256": "8cfa6e2e9a4ada758f662ac7220cfbc221cc0c5544daa33b3d8c4846f05e6e0d",
+          "bytes": 7104
+        },
+        {
+          "path": "headless_module_verify.py",
+          "sha256": "c2e81e6326b3514457fc76b91098ee7b88e97d3e46df90962fd68059787dd108",
+          "bytes": 10461
+        },
+        {
+          "path": "headless_verify.py",
+          "sha256": "d69d77e935482c4e5a3d17d8828cd64e4aaa3aaa8bd3b6299789393c69abf26d",
+          "bytes": 3972
+        },
+        {
+          "path": "README.md",
+          "sha256": "7ec6ecc1f74e8c9795c4c316a160966c72537bad392dfe129cd143125163717c",
+          "bytes": 4218
+        },
+        {
+          "path": "start_server_session.py",
+          "sha256": "44aef1c358f1743ca6476b4904833fc2bcdca5cea89eba4af094460721f58f43",
+          "bytes": 1692
+        },
+        {
+          "path": "view_commands.py",
+          "sha256": "278046a1fd67b2cff2c7b14ce17dda6ebbc5ed69be7bc558c37bba982d98e873",
+          "bytes": 4090
+        }
+      ],
+      "file_count": 23,
+      "tree_sha256": "1849bd26e71f4bafe81f87e0ad6b012537fd39f23e195c35fe3341c9430a2183"
+    },
+    "cmos-motion-poc": {
+      "files": [
+        {
+          "path": ".pytest_cache/.gitignore",
+          "sha256": "e7c6bb30148cf667606dcd63e7ca77acaa3cfb0c8303bf09e6419e1e1669dc6d",
+          "bytes": 39
+        },
+        {
+          "path": ".pytest_cache/CACHEDIR.TAG",
+          "sha256": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4",
+          "bytes": 191
+        },
+        {
+          "path": ".pytest_cache/README.md",
+          "sha256": "420e808d79a6c25d3cda0af33bc4782314a14949866682c68ce8149e89b66b70",
+          "bytes": 310
+        },
+        {
+          "path": ".pytest_cache/v/cache/lastfailed",
+          "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "bytes": 2
+        },
+        {
+          "path": ".pytest_cache/v/cache/nodeids",
+          "sha256": "aa977688430536c7d53a52e3d5fca49a1082178c1c70c329af12675ff15ce8cd",
+          "bytes": 4647
+        },
+        {
+          "path": "app.py",
+          "sha256": "29cd1db0e8595c86c562695e00971a0aea0075e70c368c4d06b894e9654cce65",
+          "bytes": 18729
+        },
+        {
+          "path": "config.example.json",
+          "sha256": "dd4b04d98a6168b0ec3f9e4340cff148b1ad8b8136ac37919e2da63b11ab8142",
+          "bytes": 898
+        },
+        {
+          "path": "config.py",
+          "sha256": "81104a6dfc9663b37eda4ed9835120473855250e5ef62fdfa3c77a079a693ae7",
+          "bytes": 4669
+        },
+        {
+          "path": "e2e_session_verify.py",
+          "sha256": "182e71fe55049f0ac7e5bc0ec3668a475950b61f87ad0ff8e4f350ade1220315",
+          "bytes": 7992
+        },
+        {
+          "path": "gesture_fsm.py",
+          "sha256": "2860d7c65ea60d8c7532b8e3f1112c99d478911172c9497eb62b3bc2ad083b71",
+          "bytes": 5504
+        },
+        {
+          "path": "hand_landmarker.py",
+          "sha256": "48537fe3f5b448d05b2c1831ac2791defedd9a99636d8e5d4fa2faa822ab95de",
+          "bytes": 3740
+        },
+        {
+          "path": "input_bridge.py",
+          "sha256": "68ca20d2107155b63ce89dbc7c43832357212b9c9890cc26758f79630657ab41",
+          "bytes": 2814
+        },
+        {
+          "path": "models/hand_landmarker.task",
+          "sha256": "fbc2a30080c3c557093b5ddfc334698132eb341044ccee322ccf8bcf3607cde1",
+          "bytes": 7819105
+        },
+        {
+          "path": "models/README.md",
+          "sha256": "fcf5acdd20944d3f06e27c6527c9e0b533f107c7db125d46cb9e1d8836152f9f",
+          "bytes": 631
+        },
+        {
+          "path": "motion_engine.py",
+          "sha256": "310e1d0e138ae2ddf37ceff6ab49d954a5b6aab2c62616ff5edefd0abc0397ad",
+          "bytes": 4030
+        },
+        {
+          "path": "mouse_relay.py",
+          "sha256": "1c82154d3d809e1a10f9b543bd533678612627554d06edc3d2bddbe0a00b197b",
+          "bytes": 5804
+        },
+        {
+          "path": "op_controller.py",
+          "sha256": "cdfa55c55f3a598a3622fb0a3c4b545f64ea92f3e4a72f1fd1ade812dc09feb0",
+          "bytes": 11009
+        },
+        {
+          "path": "README.md",
+          "sha256": "06b5149a351d83eb593688f3e11f6532b4219665377b106a0f5c0c92c732902c",
+          "bytes": 6078
+        },
+        {
+          "path": "requirements-dev.txt",
+          "sha256": "3d233dc7137fa909d711742f937e61b73ee0467d1c38bbd28106a70ef2fcc885",
+          "bytes": 35
+        },
+        {
+          "path": "requirements.txt",
+          "sha256": "05775230f35fe785784d7dff5ddeef46759118571aaf21d4c9ee622ae7900a0b",
+          "bytes": 110
+        },
+        {
+          "path": "run.ps1",
+          "sha256": "67bad7a4f48a7bd1675d7696155d9a752c2bb07148cddae44f41cc881ef1df4f",
+          "bytes": 717
+        },
+        {
+          "path": "safety_controller.py",
+          "sha256": "6566ba72342bb6812c2f3442af0ed10410747344d0b6e6571a163d12a205be61",
+          "bytes": 4226
+        },
+        {
+          "path": "session_client.py",
+          "sha256": "5e4d17c4a0a69fc6e1fa951d6553a3722bb97ce7a552d10ff8a053fcffeab895",
+          "bytes": 4299
+        },
+        {
+          "path": "setup.ps1",
+          "sha256": "3a3c722cd71707ad60b06134340580cfca9c8a465a9821fab83b6bdecea97d4f",
+          "bytes": 479
+        },
+        {
+          "path": "slicer_bridge.py",
+          "sha256": "00a75ff32b3e23f755187d482e381eefd45e66722a4d0102cc3fb26875b33a06",
+          "bytes": 2838
+        },
+        {
+          "path": "target_guard.py",
+          "sha256": "33e4e58de20ac9b5016d99de41b677ba6775c28d31a861a298ca9482a84d57e2",
+          "bytes": 3215
+        },
+        {
+          "path": "zoom_engine.py",
+          "sha256": "302580c81f789af8dac97e307ec8e39cb76b7716eaa10cae63f3efe46ea4839f",
+          "bytes": 2805
+        }
+      ],
+      "file_count": 27,
+      "tree_sha256": "1aa3d6d70616b27726d64d5ebda6b8fe9f233d62906b655ff1b060a25758b0a6"
+    }
+  },
+  "python_dependencies": [
+    {
+      "name_version": "MouseInfo==0.1.3"
+    },
+    {
+      "name_version": "PyAutoGUI==0.9.54"
+    },
+    {
+      "name_version": "PyGetWindow==0.0.9"
+    },
+    {
+      "name_version": "PyMsgBox==2.0.1"
+    },
+    {
+      "name_version": "PyRect==0.2.0"
+    },
+    {
+      "name_version": "PyScreeze==1.0.1"
+    },
+    {
+      "name_version": "Pygments==2.20.0"
+    },
+    {
+      "name_version": "absl-py==2.5.0"
+    },
+    {
+      "name_version": "attrs==26.1.0"
+    },
+    {
+      "name_version": "cffi==2.1.1"
+    },
+    {
+      "name_version": "colorama==0.4.6"
+    },
+    {
+      "name_version": "contourpy==1.3.3"
+    },
+    {
+      "name_version": "cycler==0.12.1"
+    },
+    {
+      "name_version": "flatbuffers==25.12.19"
+    },
+    {
+      "name_version": "fonttools==4.63.0"
+    },
+    {
+      "name_version": "iniconfig==2.3.0"
+    },
+    {
+      "name_version": "jax==0.7.1"
+    },
+    {
+      "name_version": "jaxlib==0.7.1"
+    },
+    {
+      "name_version": "kiwisolver==1.5.0"
+    },
+    {
+      "name_version": "matplotlib==3.11.1"
+    },
+    {
+      "name_version": "mediapipe==0.10.21"
+    },
+    {
+      "name_version": "ml_dtypes==0.5.4"
+    },
+    {
+      "name_version": "numpy==1.26.4"
+    },
+    {
+      "name_version": "opencv-contrib-python==4.11.0.86"
+    },
+    {
+      "name_version": "opt_einsum==3.4.0"
+    },
+    {
+      "name_version": "packaging==26.3"
+    },
+    {
+      "name_version": "pillow==12.3.0"
+    },
+    {
+      "name_version": "pluggy==1.6.0"
+    },
+    {
+      "name_version": "protobuf==4.25.9"
+    },
+    {
+      "name_version": "pycparser==3.0"
+    },
+    {
+      "name_version": "pyparsing==3.3.2"
+    },
+    {
+      "name_version": "pyperclip==1.11.0"
+    },
+    {
+      "name_version": "pytest==8.4.1"
+    },
+    {
+      "name_version": "python-dateutil==2.9.0.post0"
+    },
+    {
+      "name_version": "pytweening==1.2.0"
+    },
+    {
+      "name_version": "scipy==1.17.1"
+    },
+    {
+      "name_version": "sentencepiece==0.2.2"
+    },
+    {
+      "name_version": "six==1.17.0"
+    },
+    {
+      "name_version": "sounddevice==0.5.5"
+    }
+  ]
+}

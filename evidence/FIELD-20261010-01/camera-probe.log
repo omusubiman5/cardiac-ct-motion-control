@@ -1,0 +1,3 @@
+[ WARN:0@0.815] global cap.cpp:480 cv::VideoCapture::open VIDEOIO(DSHOW): backend is generally available but can't be used to capture by index
+[ WARN:0@0.867] global cap.cpp:480 cv::VideoCapture::open VIDEOIO(DSHOW): backend is generally available but can't be used to capture by index
+[{"index": 0, "backend": "dshow", "opened": true, "frame_received": true, "shape": [720, 1280, 3], "elapsed_s": 0.5779999999795109}, {"index": 1, "backend": "dshow", "opened": false, "frame_received": false, "shape": null, "elapsed_s": 0.10999999998603016}, {"index": 2, "backend": "dshow", "opened": false, "frame_received": false, "shape": null, "elapsed_s": 0.045999999972991645}]

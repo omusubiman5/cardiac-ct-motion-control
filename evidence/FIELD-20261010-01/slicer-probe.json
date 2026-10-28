@@ -1,0 +1,19 @@
+{
+  "input": "synthetic; not real-hand acceptance",
+  "pid": 45864,
+  "tests": [
+    {
+      "id": "G-00-synthetic-scene",
+      "status": "PASS",
+      "observed": {
+        "cells": 7936,
+        "scene": "synthetic sphere",
+        "ledger": "C:\\Projects\\Cardiac-CT-Motion-Control\\evidence\\FIELD-20261010-01\\events.jsonl",
+        "startup_armed": false
+      }
+    }
+  ],
+  "foreground_ok": false,
+  "slicer_version": "5.12.3",
+  "transport_blocker": "actual foreground gate rejected; no override"
+}

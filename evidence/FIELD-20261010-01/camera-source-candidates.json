@@ -1,0 +1,22 @@
+[
+  {
+    "Name": "Windows Virtual Camera Device",
+    "PNPClass": "SoftwareDevice",
+    "Status": "OK"
+  },
+  {
+    "Name": "Android Composite ADB Interface",
+    "PNPClass": "AndroidUsbDeviceClass",
+    "Status": "OK"
+  },
+  {
+    "Name": "Pixel 9a",
+    "PNPClass": "Bluetooth",
+    "Status": "OK"
+  },
+  {
+    "Name": "Pixel 9a",
+    "PNPClass": "Bluetooth",
+    "Status": "OK"
+  }
+]

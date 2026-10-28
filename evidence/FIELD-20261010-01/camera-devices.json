@@ -1,0 +1,37 @@
+[
+  {
+    "Class": "Bluetooth",
+    "FriendlyName": "Pixel 9a Avrcp トランスポート",
+    "Status": "OK"
+  },
+  {
+    "Class": "MEDIA",
+    "FriendlyName": "Pixel 9a Hands-Free HF Audio",
+    "Status": "OK"
+  },
+  {
+    "Class": "Bluetooth",
+    "FriendlyName": "Pixel 9a",
+    "Status": "OK"
+  },
+  {
+    "Class": "Bluetooth",
+    "FriendlyName": "Pixel 9a",
+    "Status": "OK"
+  },
+  {
+    "Class": "MEDIA",
+    "FriendlyName": "Pixel 9a A2DP SNK",
+    "Status": "OK"
+  },
+  {
+    "Class": "Bluetooth",
+    "FriendlyName": "Pixel 9a Avrcp トランスポート",
+    "Status": "OK"
+  },
+  {
+    "Class": "System",
+    "FriendlyName": "Pixel 9a Hands-Free HF",
+    "Status": "OK"
+  }
+]

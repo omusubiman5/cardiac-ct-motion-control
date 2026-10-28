@@ -1,0 +1,31 @@
+{
+  "files_checked": 50,
+  "mismatches": [
+    {
+      "path": "prototypes\\slicer-cstamp\\CStampModule.py",
+      "match": false,
+      "test_cache": false
+    },
+    {
+      "path": "prototypes\\slicer-cstamp\\README.md",
+      "match": false,
+      "test_cache": false
+    },
+    {
+      "path": "prototypes\\cmos-motion-poc\\e2e_session_verify.py",
+      "match": false,
+      "test_cache": false
+    },
+    {
+      "path": "prototypes\\cmos-motion-poc\\run.ps1",
+      "match": false,
+      "test_cache": false
+    },
+    {
+      "path": "prototypes\\cmos-motion-poc\\setup.ps1",
+      "match": false,
+      "test_cache": false
+    }
+  ],
+  "note": "post-test comparison; pytest cache may be changed by this run; no SBOM regeneration"
+}

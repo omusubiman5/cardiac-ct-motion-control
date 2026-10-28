@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="1" failures="0" skipped="0" tests="1" time="0.361" timestamp="2026-10-10T11:06:44.785421+09:00" hostname="WIN-L2LHFLAOJ5A"><testcase classname="" name="prototypes.cmos-motion-poc.tests.test_config" time="0.000"><error message="collection failure">ImportError while importing test module 'C:\Projects\Cardiac-CT-Motion-Control\prototypes\cmos-motion-poc\tests\test_config.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\HOMEA\AppData\Local\Programs\Python\Python312\Lib\importlib\__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+prototypes\cmos-motion-poc\tests\test_config.py:5: in &lt;module&gt;
+    from config import AppConfig
+E   ModuleNotFoundError: No module named 'config'</error></testcase></testsuite></testsuites>

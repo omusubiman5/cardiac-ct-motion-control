@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="700" viewBox="0 0 1120 700">
+<rect width="1120" height="700" fill="#f4f7fb"/><g font-family="Yu Gothic,Meiryo,sans-serif">
+<text x="35" y="46" font-size="26" font-weight="bold" fill="#122640">同じSlicerの左側パネルで、メニューと確定を確認する</text>
+<text x="35" y="78" font-size="16" fill="#526278">説明用の模式図。実カメラ画像・実手試験の証跡ではありません。</text>
+<rect x="30" y="105" width="480" height="495" rx="12" fill="#122640"/>
+<g fill="#eef6ff" font-size="20"><text x="55" y="140">ハンド操作</text><text x="55" y="180" fill="#55e6b8">受付中｜PERFORMED</text>
+<text x="55" y="215">現在の操作：開口方向を調整</text><text x="55" y="250">仮Cあり・未確定｜直径10.0 mm</text>
+<text x="55" y="295" fill="#55e6b8">C編集メニュー：開</text>
+<text x="70" y="335">位置を調整</text><rect x="50" y="350" width="435" height="40" rx="5" fill="#225984"/>
+<text x="70" y="378">▶ 開口方向を調整</text><text x="70" y="420">傾きを調整</text><text x="70" y="460">進行方向を反転</text>
+<text x="70" y="500">方向を初期状態に戻す</text><text x="70" y="540">確定へ進む</text>
+<text x="55" y="579" font-size="16" fill="#9fb5cd">閉なら一覧は表示されません。停止中は編集できません。</text></g>
+<path d="M520 330H570" stroke="#1686a7" stroke-width="5"/><path d="m560 320 12 10-12 10" fill="none" stroke="#1686a7" stroke-width="4"/>
+<rect x="595" y="105" width="495" height="495" rx="12" fill="#122640"/>
+<g fill="#eef6ff" font-size="20"><text x="620" y="145" fill="#ffd479">確定確認</text><text x="620" y="187">対象：登録済みデモモデル</text>
+<text x="620" y="227">仮C ID：表示されたID</text><text x="620" y="267">版：現在の版</text><text x="620" y="307">直径：10.0 mm（変更可能）</text>
+<text x="620" y="347">開口方向・進行方向：表示値を確認</text><text x="620" y="387">表示hash：現在の描画と一致</text>
+<rect x="615" y="414" width="450" height="70" rx="6" fill="#36465b"/><text x="630" y="442" font-size="19">ここを開いただけでは保存されない</text>
+<text x="630" y="470" font-size="18">一度手を下げ、3本指で独立して確定</text><text x="620" y="520" font-size="18">版が変わった／未描画 → 保存を拒否</text>
+<text x="620" y="561" font-size="18">グー → 編集メニューへ戻る</text></g>
+<g fill="#122640" font-size="19"><text x="35" y="638">親指：開く　　2本指：▶を次へ　　3本指：選択　　グー：一段戻る／主メニューを閉じる</text>
+<text x="35" y="672">操作ごとに手を1秒下げる。受付開始は開いた片手を1.5秒保持し、その後も一度下げる。</text></g>
+</g></svg>

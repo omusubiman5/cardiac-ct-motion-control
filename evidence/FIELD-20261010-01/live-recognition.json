@@ -1,0 +1,180 @@
+{
+  "camera_index": 0,
+  "source_identity": "index0; physical Pixel attribution not independently proven",
+  "no_control_connection": true,
+  "no_image_saved": true,
+  "frames": 806,
+  "duration_s": 30.078000000095926,
+  "hand_count_frames": {
+    "0": 806
+  },
+  "shape_frames": {
+    "NONE": 806
+  },
+  "samples": [
+    {
+      "elapsed_s": 3.44,
+      "hands": 0,
+      "shape": "NONE",
+      "confidence": 0.0
+    },
+    {
+      "elapsed_s": 4.45,
+      "hands": 0,
+      "shape": "NONE",
+      "confidence": 0.0
+    },
+    {
+      "elapsed_s": 5.45,
+      "hands": 0,
+      "shape": "NONE",
+      "confidence": 0.0
+    },
+    {
+      "elapsed_s": 6.45,
+      "hands": 0,
+      "shape": "NONE",
+      "confidence": 0.0
+    },
+    {
+      "elapsed_s": 7.45,
+      "hands": 0,
+      "shape": "NONE",
+      "confidence": 0.0
+    },
+    {
+      "elapsed_s": 8.45,
+      "hands": 0,
+      "shape": "NONE",
+      "confidence": 0.0
+    },
+    {
+      "elapsed_s": 9.45,
+      "hands": 0,
+      "shape": "NONE",
+      "confidence": 0.0
+    },
+    {
+      "elapsed_s": 10.47,
+      "hands": 0,
+      "shape": "NONE",
+      "confidence": 0.0
+    },
+    {
+      "elapsed_s": 11.47,
+      "hands": 0,
+      "shape": "NONE",
+      "confidence": 0.0
+    },
+    {
+      "elapsed_s": 12.48,
+      "hands": 0,
+      "shape": "NONE",
+      "confidence": 0.0
+    },
+    {
+      "elapsed_s": 13.5,
+      "hands": 0,
+      "shape": "NONE",
+      "confidence": 0.0
+    },
+    {
+      "elapsed_s": 14.52,
+      "hands": 0,
+      "shape": "NONE",
+      "confidence": 0.0
+    },
+    {
+      "elapsed_s": 15.52,
+      "hands": 0,
+      "shape": "NONE",
+      "confidence": 0.0
+    },
+    {
+      "elapsed_s": 16.52,
+      "hands": 0,
+      "shape": "NONE",
+      "confidence": 0.0
+    },
+    {
+      "elapsed_s": 17.52,
+      "hands": 0,
+      "shape": "NONE",
+      "confidence": 0.0
+    },
+    {
+      "elapsed_s": 18.52,
+      "hands": 0,
+      "shape": "NONE",
+      "confidence": 0.0
+    },
+    {
+      "elapsed_s": 19.52,
+      "hands": 0,
+      "shape": "NONE",
+      "confidence": 0.0
+    },
+    {
+      "elapsed_s": 20.53,
+      "hands": 0,
+      "shape": "NONE",
+      "confidence": 0.0
+    },
+    {
+      "elapsed_s": 21.53,
+      "hands": 0,
+      "shape": "NONE",
+      "confidence": 0.0
+    },
+    {
+      "elapsed_s": 22.53,
+      "hands": 0,
+      "shape": "NONE",
+      "confidence": 0.0
+    },
+    {
+      "elapsed_s": 23.53,
+      "hands": 0,
+      "shape": "NONE",
+      "confidence": 0.0
+    },
+    {
+      "elapsed_s": 24.56,
+      "hands": 0,
+      "shape": "NONE",
+      "confidence": 0.0
+    },
+    {
+      "elapsed_s": 25.58,
+      "hands": 0,
+      "shape": "NONE",
+      "confidence": 0.0
+    },
+    {
+      "elapsed_s": 26.58,
+      "hands": 0,
+      "shape": "NONE",
+      "confidence": 0.0
+    },
+    {
+      "elapsed_s": 27.59,
+      "hands": 0,
+      "shape": "NONE",
+      "confidence": 0.0
+    },
+    {
+      "elapsed_s": 28.61,
+      "hands": 0,
+      "shape": "NONE",
+      "confidence": 0.0
+    },
+    {
+      "elapsed_s": 29.61,
+      "hands": 0,
+      "shape": "NONE",
+      "confidence": 0.0
+    }
+  ],
+  "intended_gesture_trial_labels": null,
+  "recognition_accuracy": "not calculated; no synchronized operator intent labels"
+}

@@ -1,0 +1,579 @@
+{
+  "input": "synthetic; not real-hand acceptance",
+  "pid": 6508,
+  "tests": [
+    {
+      "id": "G-00-synthetic-scene",
+      "status": "PASS",
+      "observed": {
+        "cells": 7936,
+        "scene": "synthetic sphere",
+        "ledger": "C:\\Projects\\Cardiac-CT-Motion-Control\\evidence\\FIELD-20261010-01\\slicer-attempt3\\events.jsonl",
+        "startup_armed": false
+      }
+    },
+    {
+      "id": "X-03-arm",
+      "status": "PASS",
+      "observed": {
+        "ok": true,
+        "req": "probe-2",
+        "state": {
+          "armed": true,
+          "mode": "view",
+          "layer": "PERFORMED",
+          "draft": false
+        },
+        "result": {
+          "text": "状態: IDLE\n手入力: 受付中 / モード: view / レイヤー: PERFORMED",
+          "state": "IDLE",
+          "frozen": false,
+          "aim_valid": false,
+          "layer": "PERFORMED",
+          "plan": null
+        }
+      }
+    },
+    {
+      "id": "X-04-real-camera-rotate",
+      "status": "PASS",
+      "observed": {
+        "reply": {
+          "ok": true,
+          "req": "probe-3",
+          "state": {
+            "armed": true,
+            "mode": "view",
+            "layer": "PERFORMED",
+            "draft": false
+          }
+        },
+        "before": [
+          0.6641105538949006,
+          767.3935230231609,
+          0.09640809879737589
+        ],
+        "after": [
+          134.71092167110282,
+          752.7172428667506,
+          67.63282864823053
+        ]
+      }
+    },
+    {
+      "id": "AC-009-synthetic-aim",
+      "status": "PASS",
+      "observed": {
+        "ok": true,
+        "req": "probe-5",
+        "state": {
+          "armed": true,
+          "mode": "aim",
+          "layer": "PERFORMED",
+          "draft": false
+        },
+        "result": {
+          "valid": true,
+          "point": [
+            7.085264793687461,
+            28.916175301096814,
+            3.33155983077123
+          ]
+        }
+      }
+    },
+    {
+      "id": "AC-001-synthetic-stamp",
+      "status": "PASS",
+      "observed": {
+        "reply": {
+          "ok": true,
+          "req": "probe-6",
+          "state": {
+            "armed": true,
+            "mode": "aim",
+            "layer": "PERFORMED",
+            "draft": true
+          },
+          "draft_id": "draft-0001"
+        },
+        "points": 33,
+        "rows": 0
+      }
+    },
+    {
+      "id": "AC-010-repeat-stamp",
+      "status": "PASS",
+      "observed": {
+        "ok": false,
+        "req": "probe-7",
+        "state": {
+          "armed": true,
+          "mode": "aim",
+          "layer": "PERFORMED",
+          "draft": true
+        },
+        "reason": "draft already exists"
+      }
+    },
+    {
+      "id": "X-03-bogus",
+      "status": "PASS",
+      "observed": {
+        "ok": false,
+        "reason": "unknown command",
+        "state": {
+          "armed": true,
+          "mode": "aim",
+          "layer": "PERFORMED",
+          "draft": true
+        }
+      }
+    },
+    {
+      "id": "X-03-select_layer",
+      "status": "PASS",
+      "observed": {
+        "ok": false,
+        "req": "probe-9",
+        "state": {
+          "armed": true,
+          "mode": "aim",
+          "layer": "PERFORMED",
+          "draft": true
+        },
+        "reason": "layer change forbidden during draft"
+      }
+    },
+    {
+      "id": "X-03-view_rotate",
+      "status": "PASS",
+      "observed": {
+        "ok": false,
+        "req": "probe-10",
+        "state": {
+          "armed": true,
+          "mode": "aim",
+          "layer": "PERFORMED",
+          "draft": true
+        },
+        "reason": "invalid view command"
+      }
+    },
+    {
+      "id": "X-03-stale-time",
+      "status": "PASS",
+      "observed": {
+        "ok": false,
+        "reason": "stale command",
+        "state": {
+          "armed": true,
+          "mode": "aim",
+          "layer": "PERFORMED",
+          "draft": true
+        }
+      }
+    },
+    {
+      "id": "X-03-other-session",
+      "status": "PASS",
+      "observed": {
+        "ok": false,
+        "reason": "wrong session",
+        "state": {
+          "armed": true,
+          "mode": "aim",
+          "layer": "PERFORMED",
+          "draft": true
+        }
+      }
+    },
+    {
+      "id": "X-04-move",
+      "status": "PASS",
+      "observed": {
+        "before": [
+          7.085264793687461,
+          28.916175301096814,
+          3.33155983077123
+        ],
+        "after": [
+          5.0425943921646095,
+          29.348302315852578,
+          3.3377589311552036
+        ],
+        "reply": {
+          "ok": true,
+          "req": "probe-14",
+          "state": {
+            "armed": true,
+            "mode": "move",
+            "layer": "PERFORMED",
+            "draft": true
+          },
+          "result": {
+            "rev": 1
+          },
+          "draft_id": "draft-0001"
+        }
+      }
+    },
+    {
+      "id": "X-04-off-surface",
+      "status": "PASS",
+      "observed": {
+        "ok": false,
+        "req": "probe-15",
+        "state": {
+          "armed": true,
+          "mode": "move",
+          "layer": "PERFORMED",
+          "draft": true
+        },
+        "reason": "off-surface; draft unchanged"
+      }
+    },
+    {
+      "id": "AC-002-opening",
+      "status": "PASS",
+      "observed": {
+        "ok": true,
+        "req": "probe-17",
+        "state": {
+          "armed": true,
+          "mode": "rotate",
+          "layer": "PERFORMED",
+          "draft": true
+        },
+        "result": {
+          "rev": 2
+        }
+      }
+    },
+    {
+      "id": "X-01-stale-revision",
+      "status": "PASS",
+      "observed": {
+        "ok": false,
+        "req": "probe-18",
+        "state": {
+          "armed": true,
+          "mode": "rotate",
+          "layer": "PERFORMED",
+          "draft": true
+        },
+        "reason": "draft changed since display (shown rev 1, current rev 2)"
+      }
+    },
+    {
+      "id": "X-04-tilt",
+      "status": "PASS",
+      "observed": {
+        "ok": true,
+        "req": "probe-20",
+        "state": {
+          "armed": true,
+          "mode": "tilt",
+          "layer": "PERFORMED",
+          "draft": true
+        },
+        "result": {
+          "rev": 3
+        }
+      }
+    },
+    {
+      "id": "X-04-reverse-API",
+      "status": "PASS",
+      "observed": {
+        "ok": true,
+        "req": "probe-21",
+        "state": {
+          "armed": true,
+          "mode": "tilt",
+          "layer": "PERFORMED",
+          "draft": true
+        },
+        "result": {
+          "rev": 4
+        }
+      }
+    },
+    {
+      "id": "X-04-reset-API",
+      "status": "PASS",
+      "observed": {
+        "ok": true,
+        "req": "probe-22",
+        "state": {
+          "armed": true,
+          "mode": "tilt",
+          "layer": "PERFORMED",
+          "draft": true
+        },
+        "result": {
+          "rev": 5
+        }
+      }
+    },
+    {
+      "id": "AC-013-camera-only",
+      "status": "PASS",
+      "observed": {
+        "ok": true,
+        "req": "probe-24",
+        "state": {
+          "armed": true,
+          "mode": "view",
+          "layer": "PERFORMED",
+          "draft": true
+        }
+      }
+    },
+    {
+      "id": "OP-011-write-failure",
+      "status": "PASS",
+      "observed": {
+        "ok": false,
+        "req": "probe-25",
+        "state": {
+          "armed": true,
+          "mode": "view",
+          "layer": "PERFORMED",
+          "draft": true
+        },
+        "reason": "rejected: [WinError 183] 既に存在するファイルを作成することはできません。: 'C:\\\\Projects\\\\Cardiac-CT-Motion-Control\\\\evidence\\\\FIELD-20261010-01\\\\slicer-attempt3\\\\not-a-directory'"
+      }
+    },
+    {
+      "id": "AC-003-internal-revision-only",
+      "status": "PASS",
+      "observed": {
+        "reply": {
+          "ok": true,
+          "req": "probe-26",
+          "state": {
+            "armed": true,
+            "mode": "view",
+            "layer": "PERFORMED",
+            "draft": false
+          },
+          "result": {
+            "draft_revision": 5
+          },
+          "event_id": "c35ce5b7583445cf95bba53c96d48dbe"
+        },
+        "display_completion_proved": false
+      }
+    },
+    {
+      "id": "AC-005-repeat-commit",
+      "status": "PASS",
+      "observed": {
+        "ok": false,
+        "req": "probe-27",
+        "state": {
+          "armed": true,
+          "mode": "view",
+          "layer": "PERFORMED",
+          "draft": false
+        },
+        "reason": "no active draft"
+      }
+    },
+    {
+      "id": "X-01-query-same-session",
+      "status": "PASS",
+      "observed": {
+        "ok": true,
+        "req": "probe-28",
+        "state": {
+          "armed": true,
+          "mode": "view",
+          "layer": "PERFORMED",
+          "draft": false
+        },
+        "result": {
+          "response": {
+            "ok": true,
+            "req": "probe-26",
+            "state": {
+              "armed": true,
+              "mode": "view",
+              "layer": "PERFORMED",
+              "draft": false
+            },
+            "result": {
+              "draft_revision": 5
+            },
+            "event_id": "c35ce5b7583445cf95bba53c96d48dbe"
+          }
+        }
+      }
+    },
+    {
+      "id": "AC-017-three-records",
+      "status": "PASS",
+      "observed": {
+        "count": 3,
+        "orders": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "id": "AC-016-redisplay",
+      "status": "PASS",
+      "observed": {
+        "ok": true,
+        "event_id": "c35ce5b7583445cf95bba53c96d48dbe"
+      }
+    },
+    {
+      "id": "AC-004-cancel",
+      "status": "PASS",
+      "observed": {
+        "reply": {
+          "ok": true,
+          "req": "probe-44",
+          "state": {
+            "armed": true,
+            "mode": "aim",
+            "layer": "PERFORMED",
+            "draft": false
+          }
+        },
+        "state": "IDLE"
+      }
+    },
+    {
+      "id": "SR-008-disconnect-freeze",
+      "status": "PASS",
+      "observed": {
+        "ok": false,
+        "reason": "no session; send hello first",
+        "state": {}
+      }
+    },
+    {
+      "id": "X-01-query-after-reconnect",
+      "status": "FAIL",
+      "observed": {
+        "ok": false,
+        "req": "probe-2",
+        "state": {
+          "armed": true,
+          "mode": "aim",
+          "layer": "PERFORMED",
+          "draft": true
+        },
+        "reason": "unknown request id"
+      }
+    },
+    {
+      "id": "AC-008-reload-synthetic",
+      "status": "PASS",
+      "observed": {
+        "restored": 3,
+        "ids": [
+          "c35ce5b7583445cf95bba53c96d48dbe",
+          "69e64d6b151b49c09781aad0d21abbc2",
+          "8c43dfe5d45042609ee80de341ccbdfb"
+        ]
+      }
+    },
+    {
+      "id": "X-05-corrupt-ledger-rejection",
+      "status": "FAIL",
+      "observed": {
+        "restored": 1,
+        "rejected": false
+      }
+    },
+    {
+      "id": "X-05-original-in-memory-immutable",
+      "status": "FAIL",
+      "observed": {
+        "before_revoked": false,
+        "after_revoked": true,
+        "reply": {
+          "ok": true,
+          "result": {
+            "revoked": "a54a078b676d4d778a1e71b2cbc1fb36"
+          }
+        }
+      }
+    },
+    {
+      "id": "H-09-synthetic-confirmation-order",
+      "status": "FAIL",
+      "observed": {
+        "rows_before_confirm_audit": 2,
+        "types": [
+          null,
+          "event_revoked"
+        ]
+      }
+    },
+    {
+      "id": "X-05-plan-version-diff",
+      "status": "PASS",
+      "observed": {
+        "ok": true,
+        "result": {
+          "plan_id": "field-plan",
+          "version": 2,
+          "diff": {
+            "added": [],
+            "removed": [],
+            "changed": [
+              "a54a078b676d4d778a1e71b2cbc1fb36"
+            ],
+            "order_changed": false
+          }
+        }
+      }
+    },
+    {
+      "id": "X-05-plan-registry-reload",
+      "status": "FAIL",
+      "observed": {
+        "fresh_plan_ids": [],
+        "persisted_rows": 2
+      }
+    },
+    {
+      "id": "H-07-synthetic-selected-reason",
+      "status": "FAIL",
+      "observed": {
+        "record_type": "plan_skip",
+        "planned_event_id": "c35ce5b7583445cf95bba53c96d48dbe",
+        "reason": "operator",
+        "event_id": "1131f7954ad24af59eba6500e473baa5",
+        "order": 0,
+        "committed_at": "2026-10-10T02:10:04.037879+00:00",
+        "integrity": "320f06938b87f6a16eabed54284c48fd6892f44d765139d180d478475db44059"
+      }
+    }
+  ],
+  "foreground_ok": true,
+  "slicer_version": "5.12.3",
+  "menu_no_draft": [
+    "mode_view",
+    "mode_aim",
+    "mode_review",
+    "reset_view",
+    "layer_toggle",
+    "load_plan",
+    "skip_plan",
+    "plan_create",
+    "plan_rev_begin",
+    "out_of_plan",
+    "load_session",
+    "disarm"
+  ],
+  "menu_draft": [],
+  "fatal_error": "Traceback (most recent call last):\n  File \"<string>\", line 150, in run\n  File \"C:\\Projects\\Cardiac-CT-Motion-Control\\prototypes\\slicer-cstamp\\CStampModule.py\", line 1410, in _menu_items\n    \"params\": {\"rev\": draft.revision}},\n                      ^^^^^^^^^^^^^^\nAttributeError: 'bool' object has no attribute 'revision'\n"
+}

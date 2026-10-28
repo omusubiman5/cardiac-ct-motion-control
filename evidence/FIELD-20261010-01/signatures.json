@@ -1,0 +1,14 @@
+[
+  {
+    "Path": "C:\\Projects\\Cardiac-CT-Motion-Control\\prototypes\\cmos-motion-poc\\run.ps1",
+    "Status": 1,
+    "StatusMessage": "証明書チェーンは処理されましたが、信頼プロバイダーが信頼していないルート証明書で強制終了しました。",
+    "Thumbprint": "262148C323E1E38D27A5C331F73508CC2B0B4594"
+  },
+  {
+    "Path": "C:\\Projects\\Cardiac-CT-Motion-Control\\prototypes\\cmos-motion-poc\\setup.ps1",
+    "Status": 1,
+    "StatusMessage": "証明書チェーンは処理されましたが、信頼プロバイダーが信頼していないルート証明書で強制終了しました。",
+    "Thumbprint": "262148C323E1E38D27A5C331F73508CC2B0B4594"
+  }
+]

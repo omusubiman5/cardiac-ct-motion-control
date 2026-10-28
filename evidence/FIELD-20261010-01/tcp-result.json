@@ -1,0 +1,106 @@
+{
+  "input": "synthetic TCP, no hand and no editing commands",
+  "pid": 46396,
+  "responses": [
+    {
+      "command": "hello",
+      "response": {
+        "ok": true,
+        "session": "7173a3390f844b1c91e540d888e369be",
+        "state": {
+          "armed": false,
+          "mode": "view",
+          "layer": "PERFORMED",
+          "draft": false
+        }
+      }
+    },
+    {
+      "command": "status",
+      "response": {
+        "ok": true,
+        "req": "tcp-1",
+        "state": {
+          "armed": false,
+          "mode": "view",
+          "layer": "PERFORMED",
+          "draft": false
+        },
+        "result": {
+          "text": "\u72b6\u614b: IDLE\n\u624b\u5165\u529b: \u53d7\u4ed8\u505c\u6b62 / \u30e2\u30fc\u30c9: view / \u30ec\u30a4\u30e4\u30fc: PERFORMED",
+          "state": "IDLE",
+          "frozen": false,
+          "aim_valid": false,
+          "layer": "PERFORMED",
+          "plan": null
+        }
+      }
+    },
+    {
+      "command": "view_rotate",
+      "response": {
+        "ok": false,
+        "req": "tcp-2",
+        "state": {
+          "armed": false,
+          "mode": "view",
+          "layer": "PERFORMED",
+          "draft": false
+        },
+        "reason": "not armed"
+      }
+    },
+    {
+      "command": "arm",
+      "response": {
+        "ok": true,
+        "req": "tcp-3",
+        "state": {
+          "armed": true,
+          "mode": "view",
+          "layer": "PERFORMED",
+          "draft": false
+        }
+      }
+    },
+    {
+      "command": "status",
+      "response": {
+        "ok": true,
+        "req": "tcp-4",
+        "state": {
+          "armed": true,
+          "mode": "view",
+          "layer": "PERFORMED",
+          "draft": false
+        },
+        "result": {
+          "text": "\u72b6\u614b: IDLE\n\u624b\u5165\u529b: \u53d7\u4ed8\u4e2d / \u30e2\u30fc\u30c9: view / \u30ec\u30a4\u30e4\u30fc: PERFORMED",
+          "state": "IDLE",
+          "frozen": false,
+          "aim_valid": false,
+          "layer": "PERFORMED",
+          "plan": null
+        }
+      }
+    },
+    {
+      "command": "disarm",
+      "response": {
+        "ok": true,
+        "req": "tcp-5",
+        "state": {
+          "armed": false,
+          "mode": "view",
+          "layer": "PERFORMED",
+          "draft": false
+        }
+      }
+    }
+  ],
+  "process_token_elevated": false,
+  "thread_finished": true,
+  "armed_after": false,
+  "ledger_created": false,
+  "ok": true
+}

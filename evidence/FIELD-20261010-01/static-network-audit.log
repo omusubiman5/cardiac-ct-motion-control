@@ -1,0 +1,10 @@
+== network-surface findings ==
+  prototypes\slicer-cstamp\CStampModule.py:866 [tcp_server] safe to call from inside the QTcpServer socket callback. A
+  prototypes\slicer-cstamp\CStampModule.py:1646 [tcp_server] """QTcpServer loopback listener driving the CommandDispatcher.
+  prototypes\slicer-cstamp\CStampModule.py:1655 [tcp_server] self._server = qt.QTcpServer()
+  prototypes\slicer-cstamp\gui_verify.py:133 [tcp_connect] stream = socket.create_connection(("127.0.0.1", 18944),
+  prototypes\slicer-cstamp\headless_module_verify.py:154 [tcp_connect] stream = socket.create_connection(("127.0.0.1", 18944), timeout=2)
+  prototypes\cmos-motion-poc\session_client.py:51 [tcp_connect] sock = socket.create_connection(
+  prototypes\cmos-motion-poc\slicer_bridge.py:72 [tcp_connect] self._socket = socket.create_connection(
+
+all socket endpoints are loopback-pinned; no outbound channel in project code

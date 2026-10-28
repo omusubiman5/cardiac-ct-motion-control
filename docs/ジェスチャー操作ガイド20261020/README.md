@@ -1,0 +1,20 @@
+# ジェスチャー操作ガイド（2026-10-20）
+
+本人依頼「操作用のジェスチャーイラストを作って」に基づく、非臨床デモ用の操作図。
+
+- [① 開始・メニュー](01-開始とメニュー.png)
+- [② 視点・C編集](02-視点とC編集.png)
+
+参照：docs/45の「上下方向の本人指定を反映（現行）」、現行op_controller.py、認識側README。20261020-212954起動版の操作割当に対応。親指上＝メニューを開く／メニュー中は前、親指下＝メニュー中は次、グー＝メニューを戻る／最上位なら閉じる。Vサインは次または照準中の仮配置。C開口方向は対応モードで開いた手の左右、面の傾きは上下。
+
+組込image_genで生成し、日本語ラベル・指の本数・主要な操作対応を目視確認した。操作説明用イラストであり、実操作の検収結果や実画面ではない。ソフトへの組込み・操作挙動の変更は行っていない。
+
+## 生成プロンプト
+
+### ① 開始・メニュー
+
+Use case: scientific-educational. Create a polished Japanese illustrated quick reference poster, landscape 3:2, high resolution, page 1 of 2 for an existing nonclinical 3D Slicer hand gesture demo. Title exactly「ハンド操作ガイド ① 開始・メニュー」. Small subtitle「Cardiac Motion Control｜2026-10-20 デモ版」. White background, dark navy typography, teal accents, six spacious numbered cards in 2 rows x 3 columns. Very large accurate human hand illustrations, friendly clear instructional drawing, not emoji. Each hand has exactly five digits; folded fingers clear. Cards with EXACT Japanese labels: 1「開始」 illustration open palm facing camera, all five fingers extended, wrist at bottom. text「開いた片手を1.5秒保持」「受付停止中に使う」. 2「メニューを開く」 illustration thumbs up, four fingers folded, wrist enters horizontally from side. text「親指上を保持」「メニューが閉じている時」. 3「前の項目へ」 same thumbs up illustration, small upward arrow beside menu list (not rotation). text「メニュー中：親指上」. 4「次の項目へ」 thumbs down illustration four folded fingers wrist enters sideways, small downward menu arrow. text「メニュー中：親指下」「Vサインでも次へ」; add small inset hand clearly showing index and middle fingers only extended, other three folded. 5「選択・決定」 exactly index middle ring extended upright, thumb and little folded. text「3本指を保持」「人差し指・中指・薬指」. 6「戻る・閉じる」 fully closed fist, thumb folded across fingers, not thumbs up. text「グーを保持」「1つ上へ／最上位なら閉じる」. Strong bottom strip exact「操作の間は、手を1秒下げてから次の手形へ」. Small footer「メニュー操作は約0.35秒保持が目安。画面の認識・選択表示を確認。」「非臨床デモ用」. Ensure Japanese text correct, huge readable type, generous whitespace. No clinical claims, patient images, cameras, QR codes, keyboards, unrelated gestures. Do not imply fist stops input; it returns/closes within menu. No medical treatment advice.
+
+### ② 視点・C編集
+
+Use case: scientific-educational. Create polished Japanese illustrated quick reference poster landscape 3:2 high resolution, page 2 of 2 for actual nonclinical 3D Slicer hand gesture controller. Title exactly「ハンド操作ガイド ② 視点・C編集」. Subtitle「先にメニューで操作モードを選び、メニューを閉じる」. White background, navy type, teal accents, same professional friendly hand illustration style as an instructional sheet. Six spacious cards 2 rows x 3 columns. Each card has large anatomically correct hand, exactly five digits, and small simple schematic only (abstract oval 3D surface, no real medical images). Top row section visually marked「視点操作モード」: card1「モデルを回転」 open palm five fingers extended, moving left/right/up/down arrows. label「開いた手を上下左右へ」. card2「モデルを移動」 index only extended with thumb middle ring little folded, moving left/right/up/down. label「人差し指を上下左右へ」. card3「滑らかに拡大・縮小」 thumb and index fingertips touching pinch, other fingers folded or relaxed distinct from fist, hand translated vertically, up arrow label「上：拡大」 down arrow「下：縮小」. label「つまんだまま上下へ」. Bottom row title「C編集：それぞれのモードを選択」: card4「照準・仮Cの移動」 index only extended, point marker on abstract surface. labels「照準／移動モード」「人差し指で位置を合わせる」「照準中：Vサインで仮配置」. Include tiny inset correct index+middle V sign only. card5「Cの開口方向」 open palm moving horizontally only, small C arc and curved rotation arrow showing in-plane rotation. labels「開口方向モード」「開いた手を左右へ」. card6「Cの面を傾ける」 open palm moving vertically, small tilted C plane drawing. labels「傾きモード」「開いた手を上下へ」. Bottom strong process strip exact「照準 → 仮配置 → 方向・傾き調整 → 確認・確定」. Footer exact「C編集は画面の現在モードを確認。確定は確認画面に従う。」「操作の間は手を1秒下げる｜非臨床デモ用」. Do not show V sign rotating C; V sign is placement/next item, palm rotation is current behavior. Do not imply changing view changes stored C orientation. No clinical claims, no patient data, no treatment instructions. Large accurate readable Japanese and clean comfortable spacing.
