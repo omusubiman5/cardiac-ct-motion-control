@@ -1,0 +1,6 @@
+{
+  "model_path": "models/gesture_recognizer.task",
+  "camera_index": 0,
+  "min_gesture_confidence": 0.65,
+  "recognizer": "standard"
+}

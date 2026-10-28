@@ -1,0 +1,28 @@
+{
+  "steps": [
+    [
+      "stamp",
+      "DRAFT"
+    ],
+    [
+      "rotate",
+      0.2617993877991494
+    ],
+    [
+      "commit",
+      "COMMITTED"
+    ],
+    [
+      "cancel",
+      "IDLE"
+    ]
+  ],
+  "mesh_cells": 19909,
+  "intersected": true,
+  "event_id": "c68461bdc983426b8b507e36ee93fce0",
+  "shape_points": 33,
+  "integrity_ok": true,
+  "deduplicated": true,
+  "event_count": 1,
+  "ok": true
+}

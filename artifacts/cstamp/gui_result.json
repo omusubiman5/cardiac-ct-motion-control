@@ -1,0 +1,37 @@
+{
+  "mode": "gui",
+  "module_loaded": true,
+  "widget_setup": true,
+  "click_display_xy": [
+    311.0719298770493,
+    134.71854151586876
+  ],
+  "ac001_draft_points": 33,
+  "ac002_angle_deg": 59.99999999999999,
+  "ac003_performed_points": 1,
+  "ac003_ledger_lines": 1,
+  "ac004_draft_removed": true,
+  "ac004_ledger_lines": 1,
+  "arm_response": {
+    "ok": true,
+    "req": "r1",
+    "state": {
+      "armed": true,
+      "mode": "view",
+      "layer": "PERFORMED",
+      "draft": false
+    }
+  },
+  "rotate_response": {
+    "ok": true,
+    "req": "r2",
+    "state": {
+      "armed": true,
+      "mode": "view",
+      "layer": "PERFORMED",
+      "draft": false
+    }
+  },
+  "server_moved_camera": true,
+  "ok": true
+}

@@ -1,0 +1,16 @@
+# 署名済みリリースペイロード（再生成可能・大容量）
+artifacts/releases/
+
+# 実行時ログ・ラン・ロック
+work/
+
+# Python 環境・キャッシュ
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# 一時・誤生成ファイル
+nul
+*.lock
+startup-*.json
