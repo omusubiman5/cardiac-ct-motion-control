@@ -1080,3 +1080,15 @@ docs/47を作成しdocs/48へ実行結果を記録。新規実Slicerで直径5mm
 - 検証: pytest 2293件全パス / 署名3点 Valid / 起動確認 Slicer 64052・認識 99020・connected / ペイロード=ソースhash一致。
 - 実機確認済み経路: arm→C呼出→照準→仮置き→確認画面→release→グー→commit OK（events-20261012-clean.jsonl PERFORMED記録）。
 - 未解決（既知・非ブロック）: 凍結中グーで確認ページが開きcommit拒否となる行き止まり（ガイドで誘導済み）/ frozen mirror最大~1s遅延 / dispatch_localの拒否はcommands.jsonlに載らない / recognition_lost凍結範囲がOP-013より狭い / MediaPipe 0.65閾値と実カメラ分布の乖離（救済で実用化済みだが要継続観測）。
+
+
+## 2026-10-28 C:\ 廃止に伴う A:\ への完全移行 — release 20261028-180434 起動確認
+
+- gitリポジトリを A:\ へ移行（GitHub: github.com/omusubiman5/cardiac-ct-motion-control public）。正本の registers/evidence/docs全履歴・研究物も取り込み push済み。
+- パス依存設定をA:化: targets.json scene_id、storage-selection.json。runtime.json を A:バイトで software_sha256 + target_registry_sha256 再固定。
+- target_registry_sha256 は canonical_hash(パース済JSON) 必須 — バイナリhashでは不一致になる（修正済み 9f16ddc2）。
+- ネットワーク共有特有の2障害を修正: (a) session timeout 1.0s→10.0s（Slicer側rehashがSMBで1s超）(b) 起動 readiness 30s→180s + エンドポイント argv は UNC解決されるためポインタをUNC形式で保持すること。
+- venv を A:\...\.venv へコピー（動作確認済）。release 20261028-180434: 署名3点Valid・アクティベート・起動 Slicer 41208・認識 64632・connected=True・A:MRB読込確認。
+- デスクトップショートカット2点をA:リリースへ更新済み。
+- 起動時 -ReleaseRoot はUNC形式必須（drive letter形式は argv比較で不一致になる）。
+- 残課題: C:\ 側の残骸削除は本人判断。work/・.venv/・releases/はgit管理外（再生成可能）。
