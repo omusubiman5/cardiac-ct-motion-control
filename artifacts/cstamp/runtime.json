@@ -59,7 +59,7 @@
   "python_version": "3.12.10",
   "windows_version": "Windows-11-10.0.26300-SP0",
   "software_sha256": {
-   "app.py": "5b00f63150512961c3e4b802a3b576c5b940f475cba3ce5a3bc780b649e13cdb",
+   "app.py": "32cc1ab34d093490e67bd8b582d19675fc0ccb6997730853e6353235d12a5de3",
    "camera_identity.py": "d064f7ea804633d1e5f962d6977a312fb98d29a2ac921eeffbc8920b2a3c4d63",
    "config.py": "c1507eef560f8e9ddf6a5292895949fa0f2d22228e60d89b948acdc99bb8e103",
    "e2e_session_verify.py": "a8b48b5d31af5cc6e53dafd8701e7ff1205e23c38d813b0a552a968c3c358136",
@@ -83,7 +83,7 @@
   }
  },
  "slicer_version": "5.12.3",
- "target_registry_sha256": "2f3018830e19805765aaaba92ddc1b8be1cb4ef92bfdc22c83ee7361381b2497",
+ "target_registry_sha256": "f1624d4d6ab66908b262289fbb70952c2eeb5b3d7fdfb3d19a889c88d8f32438",
  "slicer_software_sha256": {
   "command_protocol.py": "14c632f02fb4e536172d1c7d9a27174c701c7afe63ccaa0eae584442d7816c50",
   "conftest.py": "0f1d08138af56578f8724afb996f0a4af07ec18e888dfe4a4403eae4c3f3e58f",

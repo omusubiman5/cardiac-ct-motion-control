@@ -97,7 +97,11 @@ def main() -> int:
             )
         elif output_mode == "slicer":
             session_client = SlicerSessionClient(
-                port=config.slicer_port
+                port=config.slicer_port,
+                # Loopback commands stay synchronous; a network-share
+                # payload makes the server's per-request verification IO
+                # slower than the 1s default deadline.
+                timeout=10.0,
             )
             ops = OperationController(
                 session_client,
